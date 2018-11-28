@@ -2,12 +2,6 @@ defmodule PaddleParsers do
 
   alias PaddleParsers.{MatchPage, MatchPageNewDesign, SeriesMatchPage}
 
-  # Todo: deprecate
-  def parse_match_page(input) do
-    input
-    |> MatchPage.parse_match_page()
-  end
-
   @doc"""
   They made a change over this summer and this is adapting to that change.
 
