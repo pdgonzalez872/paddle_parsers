@@ -22,13 +22,7 @@ defmodule PaddleParsers.SeriesMatchPageTest do
   describe "parse_series_matches_page/1 - new_website_design" do
     test "returns a list with the match urls for that series - new_website_design" do
       result =
-        [
-          File.cwd!(),
-          "test",
-          "static_html",
-          "series_match_pages",
-          "series_1_m_20181028_design.html"
-        ]
+        [File.cwd!(), "test", "static_html", "series_match_pages", "series_1_m_20181028_design.html"]
         |> Path.join()
         |> File.read!()
         |> PaddleParsers.parse_series_matches_page()
