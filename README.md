@@ -1,21 +1,9 @@
 # PaddleParsers
 
-**TODO: Add description**
+I wanted to open source some of the work I was doing for a fun project,
+currently hosted here: https://paddle-rankings.herokuapp.com/
 
-## Installation
+You can see the parsers I use to get paddle data from an external source.
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `paddle_parsers` to your list of dependencies in `mix.exs`:
-
-```elixir
-def deps do
-  [
-    {:paddle_parsers, "~> 0.1.0"}
-  ]
-end
-```
-
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/paddle_parsers](https://hexdocs.pm/paddle_parsers).
-
+Lot's of work to do and opportunities to refactor, this is the first step of
+doing them.
