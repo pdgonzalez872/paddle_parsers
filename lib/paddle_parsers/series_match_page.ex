@@ -1,5 +1,4 @@
 defmodule PaddleParsers.SeriesMatchPage do
-
   # remove this when extracting
 
   @doc """

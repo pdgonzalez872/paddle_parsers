@@ -1,23 +1,9 @@
 defmodule PaddleParsers do
+  alias PaddleParsers.{MatchPage, SeriesMatchPage}
 
-  alias PaddleParsers.{MatchPage, MatchPageNewDesign, SeriesMatchPage}
-
-  # Todo: deprecate
   def parse_match_page(input) do
     input
     |> MatchPage.parse_match_page()
-  end
-
-  @doc"""
-  They made a change over this summer and this is adapting to that change.
-
-  This kind of renders the other module, MatchPage irrelevant.
-
-  Should update the tests and use only this function. Will get to it eventually.
-  """
-  def parse_match_page_latest_design(input) do
-    input
-    |> MatchPageNewDesign.parse_match_page()
   end
 
   def parse_series_matches_page(input) do
@@ -56,5 +42,4 @@ defmodule PaddleParsers do
     input
     |> SeriesMatchPage.extract_series_number_and_gender_from_header()
   end
-
 end
